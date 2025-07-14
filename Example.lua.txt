@@ -80,15 +80,13 @@ Tabs.Main:AddParagraph({
 
 
 
-    local Toggle = Tabs.Main:AddToggle("MyFrame", {Title = "auto frame", Default = false })
+    local AutoFrame = Tabs.Main:AddAutoframe("MyFrame", {Title = "AutoFrame", Default = false })
 
     Toggle:OnChanged(function()
-        print("Toggle changed:", Options.MyFrame.Value)
+        print("AutoFrame changed:", Options.MyFrame.Value)
     end)
 
     Options.MyFrame:SetValue(false)
-    end
-})
 
     
     local Slider = Tabs.Main:AddSlider("Slider", {
@@ -118,7 +116,7 @@ Tabs.Main:AddParagraph({
 
 
     
-    local MultiDropdown = Tabs.Main:AddDropdown("MultiDropdown", {
+    local MultiDropdown = Tabs.Main:AddDropdown("MultiDropn", {
         Title = "Dropdown",
         Description = "You can select multiple values.",
         Values = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen"},
