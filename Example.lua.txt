@@ -86,8 +86,9 @@ Tabs.Main:AddParagraph({
         print("Toggle changed:", Options.MyFrame.Value)
     end)
 
-    Options.MyToggle:SetValue(false)
-
+    Options.MyFrame:SetValue(false)
+    end
+})
 
     
     local Slider = Tabs.Main:AddSlider("Slider", {
