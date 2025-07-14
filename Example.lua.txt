@@ -79,6 +79,15 @@ Tabs.Main:AddParagraph({
     })
 
 
+local AutoFrame = Tabs.Main:AddAutoFrame("MyFrame", {Title = "AutoFrame", Default = false })
+
+    Toggle:OnChanged(function()
+        print("AutoFrame changed:", Options.MyToggle.Value)
+    end)
+
+    Options.MyToggle:SetValue(false)
+
+
 
     local Slider = Tabs.Main:AddSlider("Slider", {
         Title = "Slider",
