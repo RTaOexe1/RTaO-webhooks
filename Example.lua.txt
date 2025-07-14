@@ -44,11 +44,13 @@ do
     })
 
 
-    Tabs.Main:AddParagraph({
-        Title = "Paragraph",
-        Content = "This is a paragraph.\nSecond line!"
-    })
+    local Players = game:GetService("Players")
+local player = Players.LocalPlayer
 
+Tabs.Main:AddParagraph({
+    Title = "Paragraph",
+    Content = "ชื่อผู้เล่น: " .. player.Name .. "\nVersion 1.0"
+})
 
 
     Tabs.Main:AddButton({
