@@ -79,7 +79,7 @@ Tabs.Main:AddParagraph({
     })
 
 
-    local AutoFrame = Tabs.Main:AddAutoFrame("MyFrame", {Title = "AutoFrame", Default = false })
+    Tabs.Main:AddAutoFrame("MyFrame", {Title = "AutoFrame", Default = false })
 
     Toggle:OnChanged(function()
         print("AutoFrame changed:", Options.MyToggle.Value)
