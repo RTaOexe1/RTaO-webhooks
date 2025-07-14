@@ -25,6 +25,8 @@ local Options = Fluent.Options
 
 do
     local Section = Tabs.Main:AddSection("Section", "apple") -- Create section with icon
+    local Section = Tabs.Frame:AddSection("Frame", "🏞️") -- Create section with icon
+
 
 
   
