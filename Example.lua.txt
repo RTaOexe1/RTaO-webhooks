@@ -85,10 +85,6 @@ Tabs.Main:AddParagraph({
         print("AutoFrame changed:", Options.MyToggle.Value)
     end)
 
-    Options.MyToggle:SetValue(false)
-
-
-
     local Slider = Tabs.Main:AddSlider("Slider", {
         Title = "Slider",
         Description = "This is a slider",
