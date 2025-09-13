@@ -4,13 +4,13 @@ if not game:IsLoaded() then repeat task.wait() until game:IsLoaded() end
 if getgenv().RunScript == true then return end
 getgenv().RunScript = true
 
-getgenv().WebhookURL = "https://discord.com/api/webhooks/1410824987006337125/sU5EvsFhU9d_DVEnWz77d4TN68Mzo2DFb7aals_wfvyfeCHxgssRTVCh8n2YQdqx0dke"
+getgenv().WebhookURL = "https://discord.com/api/webhooks/1410825478146621440/wDBg1AdUeVWRMgMCjYKn2GyJzVLnhXjPAJ0ByvLzmy8z-IIctkyRuCxqOVHLrdmahNP5"
 getgenv().AutoFarm = true
 getgenv().hop = "old"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dyumra/kuy/refs/heads/main/F99D.lua"))()
 
 local queueScript = [[
-loadstring(game:HttpGet("https://raw.githubusercontent.com/dyumra/kuy/refs/heads/main/dyhub99night.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RTaOexe1/RTaO-webhooks/refs/heads/main/99nights.lua"))()
 ]]
 queue_on_teleport(queueScript)
 
