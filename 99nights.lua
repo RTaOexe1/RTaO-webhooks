@@ -10,7 +10,7 @@ getgenv().hop = "old"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dyumra/kuy/refs/heads/main/F99D.lua"))()
 
 local queueScript = [[
-loadstring(game:HttpGet("https://raw.githubusercontent.com/RTaOexe1/RTaO-webhooks/refs/heads/main/99nights.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RTaOexe1/RTaO-webhooks/main/99nights.lua"))()
 ]]
 queue_on_teleport(queueScript)
 
